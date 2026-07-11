@@ -1,0 +1,107 @@
+# CARE Library / CARE Machine v0.1
+
+An open, source-grounded and forkable architecture for computational hermeneutics.
+
+CARE — the Canonical Axiomatic Reduction Engine — is a source-grounded recursive system for turning books into layered conceptual structures.
+
+CARE is not a summariser.
+
+It is a library machine.
+
+## What CARE does
+
+CARE takes a text and builds a structured conceptual lineage from it.
+
+Instead of producing a single summary, CARE creates multiple scales of reading:
+
+- source passages;
+- chapter-level argument structures;
+- cluster-level syntheses;
+- metacluster syntheses;
+- whole-book architectures;
+- future corpus comparisons;
+- future cross-lineage syntheses.
+
+## Basic pipeline
+
+```text
+SOURCE TEXT
+→ CLEAN RAW TEXT
+→ RAW UNIT
+→ RAW PASSAGES
+→ CHAPTER UNITS
+→ CLUSTER UNITS
+→ METACLUSTER UNITS
+→ WHOLEBOOK UNITS
+→ CORPUS / CROSS-LINEAGE UNITS
+```
+
+## Why CARE exists
+
+Most AI reading tools compress books into fluent summaries.
+
+CARE aims to preserve deeper structures of books:
+
+- arguments;
+- contradictions;
+- exclusions;
+- conceptual pressure;
+- source ancestry;
+- lineage;
+- unresolved tensions.
+
+A book is not only information. It is a structured field of pressure, omission, rhythm, conflict, and transformation.
+
+## CARE Machine and CARE Library
+
+The CARE Machine is the process/compiler.
+
+The CARE Library is the accumulated corpus produced by that process.
+
+## Current status
+
+CARE v0.1 is in active local development.
+
+A first corpus has already been processed across philosophy, theology, political economy, post-structuralism, accelerationism, psychoanalysis, and critical theory.
+
+Some older processed works are currently being retrofitted with passage provenance.
+
+## Current development priorities
+
+1. Stabilise RAW passage generation at ingestion.
+2. Retrofit older processed works with passage provenance.
+3. Define a flagship corpus.
+4. Create one full provenance demo.
+5. Prepare a public technical and theoretical account.
+6. Protect CARE as a commons-oriented project.
+
+## Commons principle
+
+CARE is intended as a commons protocol rather than a closed product.
+
+People should be able to build CARE-compatible libraries, fork them, compare them, and correct them.
+
+The name and origin of CARE should be protected against enclosure or misrepresentation.
+
+## Related v0.1 documents
+
+- CARE_ARCHITECTURE_SPEC_v0.1.md
+- CARE_SCHEMA_APPENDIX_v0.1.md
+- CARE_MACHINE_DEFENSIVE_PUBLICATION_v0.1.md
+- CARE_PRIOR_ART_CLAIMS_v0.1.md
+- CARE_CORPUS_STATUS_v0.1.md
+- CARE_PASSAGE_RETROFIT_PLAN_v0.1.md
+- CARE_FLAGSHIP_EXAMPLE_v0.1.md
+- CARE_COMMONS_CHARTER_v0.1.md
+
+## Author
+
+William Proudler
+
+## Contributors
+
+- Ian Wenzel-Garay *(anticipated contributor to future versions)*
+
+Version: v0.1.0-alpha
+
+Date: 11 July 2026
