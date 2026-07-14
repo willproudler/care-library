@@ -1,8 +1,12 @@
 # CARE Prior Art Claims v0.1
 
-Date: 11 July 2026
+Initial public date: 11 July 2026
 
 Author: William Proudler
+
+Version: v0.1.0
+
+Release date: 15 July 2026
 
 ## Purpose
 

@@ -1,5 +1,13 @@
 # CARE Schema Appendix v0.1
 
+Author: William Proudler
+
+Version: v0.1.0
+
+Initial public date: 11 July 2026
+
+Release date: 15 July 2026
+
 ## Purpose
 
 This appendix records the conceptual schema of CARE v0.1.

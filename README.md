@@ -101,6 +101,8 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 
 William Proudler
 
-Version: v0.1.0-alpha
+Version: v0.1.0
 
-Date: 11 July 2026
+Initial public date: 11 July 2026
+
+Release date: 15 July 2026

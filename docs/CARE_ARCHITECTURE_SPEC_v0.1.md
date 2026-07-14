@@ -4,9 +4,11 @@
 
 William Proudler
 
-Version: v0.1.0-alpha
+Version: v0.1.0
 
-Date: 11 July 2026
+Initial public date: 11 July 2026
+
+Release date: 15 July 2026
 
 ## 1. Name
 
@@ -133,11 +135,9 @@ CARE aims to preserve:
 
 ## 7. Current status
 
-CARE v0.1 is in active local development.
+CARE v0.1 is publicly documented as an architecture and method.
 
-A first corpus has already been processed across philosophy, theology, political economy, post-structuralism, accelerationism, psychoanalysis, and critical theory.
-
-Some older projects were processed before passage provenance became central and therefore require passage retrofit.
+This specification does not release executable software, source texts, a corpus, a database, or implementation-verification material. The current public evidence boundary is recorded in [CARE_IMPLEMENTATION_STATUS_v0.1.md](../CARE_IMPLEMENTATION_STATUS_v0.1.md).
 
 ## 8. Future development
 
@@ -146,7 +146,7 @@ Future development should prioritise:
 1. passage-grounded ingestion;
 2. stable unit identifiers;
 3. schema validation;
-4. corpus status tracking;
+4. public release-status tracking;
 5. flagship examples;
 6. cross-lineage synthesis;
 7. public documentation;

@@ -2,6 +2,7 @@
 
 **Status:** Public release-control policy  
 **Scope:** CARE Library v0.1 documentation
+**Release:** v0.1.0 — 15 July 2026
 
 ## Current public scope
 
