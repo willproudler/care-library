@@ -1,14 +1,16 @@
 # Citing CARE Library
 
-## Current pre-release citation
+## v0.1.0 release citation
 
-Until a versioned v0.1.0 release and DOI are published, cite the repository as:
+Cite the v0.1.0 technical publication as:
 
-> Proudler, William. *CARE Library / CARE Machine v0.1: Architecture and Defensive Publication*. Version 0.1.0-alpha. GitHub repository, 2026. https://github.com/willproudler/care-library
+> Proudler, William. *CARE Library v0.1.0: Architecture and Defensive Publication*. Version 0.1.0. 15 July 2026. doi:10.5281/zenodo.21364540.
 
-**Reserved DOI:** `10.5281/zenodo.21364540`
+- **Release date:** 15 July 2026
+- **DOI:** `10.5281/zenodo.21364540`
+- **Immutable GitHub tag:** https://github.com/willproudler/care-library/releases/tag/v0.1.0
 
-This DOI is reserved for the private Zenodo draft. It is not yet registered, resolving or published and must not be cited as a published DOI.
+At release freeze, the DOI is reserved for the private Zenodo draft and the record is not yet published. Treat the DOI as a published identifier only after the Zenodo record resolves. Until then, use the immutable GitHub tag after that tag is published.
 
 ## Initial public disclosure
 
@@ -24,15 +26,11 @@ When relying on a specific defensive-publication statement, cite:
 - the public URL;
 - the date accessed where appropriate.
 
-## Future v0.1.0 citation
+## Metadata consistency
 
-After the release is frozen:
+GitHub and Zenodo must use the exact title, creator, version and release date shown above.
 
-1. reserve the Zenodo DOI;
-2. insert the DOI and final release date here;
-3. create and validate `CITATION.cff`;
-4. ensure GitHub and Zenodo use the same title, creator, version and date;
-5. cite the immutable `v0.1.0` release rather than the moving `main` branch.
+`CITATION.cff` is not included in this documentation-only release. Citation File Format 1.2 models the repository-level work as software or a dataset, while CARE Library v0.1.0 releases neither. Reconsider it for a future software or database release.
 
 Only actual accepted contributors who have consented to public attribution should be listed as creators or contributors.
 

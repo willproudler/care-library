@@ -8,7 +8,8 @@
 ## Release identity
 
 - **Tag:** `v0.1.0`
-- **Release title:** CARE Library v0.1.0 — Architecture and Defensive Publication
+- **Release title:** CARE Library v0.1.0: Architecture and Defensive Publication
+- **Release date:** 15 July 2026
 - **Release type:** Documentation and defensive publication
 - **Software included:** No
 - **Public corpus included:** No
@@ -24,7 +25,6 @@ The proposed tag may include only approved versions of:
 - `README.md`
 - `CHANGELOG.md`
 - `CITATION.md`
-- `CITATION.cff`, once final metadata is known
 - `CONTRIBUTING.md`
 - `DCO`
 - `LICENSE`
@@ -37,6 +37,8 @@ The proposed tag may include only approved versions of:
 - `CARE_IMPLEMENTATION_STATUS_v0.1.md`
 - `CARE_PUBLIC_RELEASE_BOUNDARY_v0.1.md`
 - `CARE_PUBLIC_RIGHTS_MANIFEST_SCHEMA_v0.1.md`
+- `GITHUB_RELEASE_PACKAGE_v0.1.0.md`
+- `ZENODO_DEPOSIT_PACKAGE_v0.1.0.md`
 
 ### Architecture documents
 
@@ -52,6 +54,8 @@ The proposed tag may include only approved versions of:
 
 Every allowed file must still pass the final rights and content review. Presence on this list does not by itself approve publication.
 
+`CITATION.md` is the citation-metadata source for this documentation-only release. `CITATION.cff` is not included because Citation File Format 1.2 models the repository-level work as software or a dataset, while v0.1.0 releases neither. Reconsider it for a future software or database release.
+
 ## Excluded from the tag and release
 
 The release must not include:
@@ -63,10 +67,12 @@ The release must not include:
 - RAW texts, passages or private annotations;
 - private corpus databases, inventories or generated outputs;
 - unpublished prompts or post-v0.1 specifications;
-- XR, XS, SC revision, XA, Operator or revision-revalidation specifications;
+- unpublished post-v0.1 XR, extended XS, revised SC, XA, Operator, patch-guided-regeneration or revision-revalidation specifications;
 - trademark filing evidence, correspondence or receipts;
 - credentials, private configuration, personal information or private paths;
 - material with an unresolved rights basis.
+
+Already-public v0.1 concept-level references to XS and SC remain within scope. This exclusion applies to unpublished expanded or operational specifications, not to those existing high-level references.
 
 ## Proposed attached assets
 

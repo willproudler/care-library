@@ -16,10 +16,10 @@ Future software or database releases should use separate appropriately typed rec
 
 ## Proposed metadata
 
-- **Title:** CARE Library: Architecture and Defensive Publication
+- **Title:** CARE Library v0.1.0: Architecture and Defensive Publication
 - **Creator:** William Proudler
 - **Version:** 0.1.0
-- **Publication date:** Set to the actual publication date
+- **Publication date:** 15 July 2026
 - **Resource type:** Publication / Technical note
 - **Access:** Open
 - **Licence:** Creative Commons Attribution-ShareAlike 4.0 International
@@ -79,7 +79,7 @@ Do not link the moving `main` branch as though it were the immutable released ve
 1. Create the Zenodo record as a draft.
 2. Enter the approved metadata.
 3. Reserve the DOI without publishing the record.
-4. Insert the reserved DOI into `CITATION.md`, the validated `CITATION.cff` and the defensive-publication metadata.
+4. Insert the reserved DOI into `CITATION.md` and the defensive-publication metadata.
 5. Freeze the GitHub release commit.
 6. Generate the final files, manifest and checksums.
 7. Upload only the approved checksum-matched files.

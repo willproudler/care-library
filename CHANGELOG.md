@@ -4,6 +4,10 @@ Notable public changes to CARE Library are recorded here.
 
 ## Unreleased
 
+No changes recorded.
+
+## v0.1.0 — 2026-07-15
+
 ### Public-boundary protection
 
 - Removed the work-level corpus-status document from the current branch.

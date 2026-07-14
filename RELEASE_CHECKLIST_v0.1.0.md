@@ -8,15 +8,18 @@
 **Zenodo record published:** No  
 **DOI reserved:** Yes — `10.5281/zenodo.21364540`  
 **DOI registered:** No
+**Planned publication date:** 15 July 2026
 
 Completing this checklist does not itself authorize publication.
 
 ## Patent and disclosure boundary
 
 - [ ] Confirm that v0.1.0 contains only material already approved for public v0.1 disclosure.
-- [ ] Confirm that no unpublished XR, XS, SC revision, XA, Operator, patch-guided regeneration or revision-revalidation specification is included.
+- [ ] Confirm that no unpublished post-v0.1 XR, extended XS, revised SC, XA, Operator, patch-guided-regeneration or revision-revalidation specification is included.
 - [ ] Preserve the explicit patent-advice checkpoint before any v0.2 defensive publication.
 - [ ] Record the decision-maker and date of final v0.1.0 publication authorization.
+
+Already-public v0.1 concept-level references to XS and SC remain within scope. The exclusion applies to unpublished expanded or operational specifications.
 
 ## Prohibited release contents
 
@@ -38,6 +41,7 @@ Every box in this section must be checked only after confirming that the listed 
 ## Content review
 
 - [ ] Confirm all included documents have final titles, dates and version labels.
+- [ ] Confirm `CITATION.md`, GitHub and Zenodo use the exact title `CARE Library v0.1.0: Architecture and Defensive Publication`.
 - [ ] Confirm there are no `[fill in]`, unresolved bracketed fields or draft commentary.
 - [ ] Confirm all internal links resolve within the proposed tag.
 - [ ] Confirm terminology is consistent across architecture, schema and prior-art documents.

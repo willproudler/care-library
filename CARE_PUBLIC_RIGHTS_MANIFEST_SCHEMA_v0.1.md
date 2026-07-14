@@ -2,6 +2,7 @@
 
 **Status:** Public release-control specification  
 **Scope:** Public CARE Library release assets
+**Release:** v0.1.0 — 15 July 2026
 
 ## Purpose
 
@@ -84,8 +85,11 @@ Permitted values:
 - `permission`
 - `facts-only`
 - `exception-reviewed`
+- `composite-reviewed`
 - `restricted`
 - `unknown`
+
+Use `composite-reviewed` only for an archive or other compound asset whose component asset records are individually approved and identified through `derived_from_asset_ids`.
 
 ### `release_decision`
 
@@ -128,6 +132,7 @@ Permitted values:
 8. Database rights and rights in individual database contents must be recorded separately.
 9. Generated material must record its source ancestry without exposing private input text.
 10. A manifest approval applies only to the identified asset version and checksum.
+11. A `composite-reviewed` asset may be included only when every component is separately recorded with an approved release decision and the compound asset contains no unrecorded files.
 
 ## Integrity-control files
 
@@ -145,9 +150,9 @@ To avoid circular or stale hashes:
 {
   "manifest_version": "0.1",
   "release_id": "v0.1.0",
-  "release_date": "TO_BE_SET_AT_RELEASE",
-  "release_commit": "TO_BE_SET_AT_RELEASE_FREEZE",
-  "generated_at": "TO_BE_SET_AT_RELEASE_FREEZE",
+  "release_date": null,
+  "release_commit": null,
+  "generated_at": null,
   "scope": "CARE Library documentation-only public release",
   "control_files": {
     "rights_manifest": "PUBLIC_RIGHTS_MANIFEST_v0.1.0.json",
@@ -159,7 +164,7 @@ To avoid circular or stale hashes:
 }
 ```
 
-The empty structure above is a schema example, not an approved release manifest.
+The empty structure above is a pre-freeze schema example, not an approved release manifest. An actual release manifest must replace every `null` value with final frozen metadata.
 
 ## Relationship to licensing
 

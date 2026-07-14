@@ -1,7 +1,8 @@
 # CARE Library Implementation Status v0.1
 
-**Status:** Public alpha documentation  
+**Status:** Public v0.1 documentation
 **Last reviewed:** 14 July 2026
+**Release:** v0.1.0 — 15 July 2026
 
 ## Purpose
 
@@ -42,7 +43,7 @@ Related work may exist outside the public repository, but no implementation, cor
 | Public RAW-text or passage dataset | Not publicly released |
 | Public conformance or regression test suite | Not publicly released |
 | Public database release | Not publicly released |
-| XR, XS, SC revision, XA, Operator and revision-revalidation specifications | Excluded from v0.1 public scope |
+| Unpublished post-v0.1 XR, extended XS, revised SC, XA, Operator, patch-guided-regeneration and revision-revalidation specifications | Excluded from v0.1 public scope |
 
 ## Release boundary
 

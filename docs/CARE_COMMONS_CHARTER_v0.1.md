@@ -4,6 +4,12 @@
 
 William Proudler
 
+Version: v0.1.0
+
+Initial public date: 11 July 2026
+
+Release date: 15 July 2026
+
 ## Principle
 
 CARE is intended as a commons-oriented canon machine.

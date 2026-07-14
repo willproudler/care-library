@@ -1,8 +1,14 @@
 # CARE Machine Defensive Publication v0.1
 
-Date: 11 July 2026
+Initial public date: 11 July 2026
 
 Author: William Proudler
+
+Version: v0.1.0
+
+Release date: 15 July 2026
+
+Release DOI: `10.5281/zenodo.21364540` (reserved before publication; verify resolution)
 
 ## Title
 
@@ -95,13 +101,11 @@ This includes:
 - public or semi-public CARE-compatible libraries;
 - open correction and extension of interpretive units.
 
-## Existing implementation
+## Public implementation status
 
-A local CARE Machine implementation exists in active development.
+This publication documents the CARE v0.1 architecture and method. It does not release executable software, source texts, a corpus, a database, or implementation-verification material.
 
-The current system processes texts through RAW, CH, CL, MC, and WB stages, with passage provenance currently being retrofitted and moved to the point of RAW ingestion.
-
-A first corpus has already been processed, including works across philosophy, theology, political economy, accelerationism, post-structuralism, psychoanalysis, and critical theory.
+The public status of implementation claims is controlled by [CARE_IMPLEMENTATION_STATUS_v0.1.md](../CARE_IMPLEMENTATION_STATUS_v0.1.md).
 
 ## Future extensions
 

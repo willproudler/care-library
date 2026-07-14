@@ -1,8 +1,16 @@
 # CARE Passage Retrofit Plan v0.1
 
+Author: William Proudler
+
+Version: v0.1.0
+
+Initial public date: 11 July 2026
+
+Release date: 15 July 2026
+
 ## Purpose
 
-Older CARE projects may have been processed before passage provenance became stable.
+Any CARE project created without verified passage provenance requires review before it can be represented as passage-grounded.
 
 This document defines the retrofit plan.
 
@@ -35,27 +43,21 @@ RETROFIT NEEDED
 
 until the passage chain is restored or verified.
 
-## Retrofit order
+## Retrofit prioritisation
 
-First five:
+Project identities and work-level processing records belong in private operational tracking unless they pass a separate public-release review.
 
-1. CCRU Writings 1997–2003
-2. Beyond Good and Evil
-3. Difference and Repetition
-4. Spinoza Ethics
-5. The System of Objects
+Private prioritisation may consider:
 
-Second ring:
+1. provenance gaps;
+2. public-demonstration value;
+3. source-rights status;
+4. technical complexity; and
+5. review capacity.
 
-6. Kant Pure Reason
-7. Marx Capital Vol. One
-8. Revelation
-9. The Accursed Share Volume One
-10. Symbolic Exchange and Death
+## Retrofit steps per approved project
 
-## Retrofit steps per book
-
-For each book:
+For each project selected through private operational tracking:
 
 1. locate the cleaned RAW source;
 2. create or verify the RAW passage set;
