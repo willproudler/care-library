@@ -65,8 +65,7 @@ For each book:
 6. verify CL units inherit CH ancestry;
 7. verify MC units inherit CL / CH ancestry;
 8. verify WB unit inherits lower-level ancestry;
-9. update CARE_CORPUS_STATUS_v0.1.md;
-10. create at least one demonstrable source chain.
+9. create at least one demonstrable source chain.
 
 ## Minimum acceptable provenance chain
 
