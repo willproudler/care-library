@@ -140,3 +140,10 @@ Permitted values:
   "scope": "CARE Library documentation-only public release",
   "assets": []
 }
+
+The empty structure above is a schema example, not an approved release manifest.
+
+## Relationship to licensing
+
+A manifest records whether an asset may be released and under what stated terms. It does not create rights that the project does not hold.
+The repository-wide documentation licence applies only where license_expression and the rights basis support that conclusion.
