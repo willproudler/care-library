@@ -90,7 +90,6 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 - CARE_MACHINE_DEFENSIVE_PUBLICATION_v0.1.md
 - CARE_PRIOR_ART_CLAIMS_v0.1.md
 - CARE_PASSAGE_RETROFIT_PLAN_v0.1.md
-- CARE_FLAGSHIP_EXAMPLE_v0.1.md
 - CARE_COMMONS_CHARTER_v0.1.md
 
 ## Author
