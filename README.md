@@ -93,6 +93,7 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 - [CHANGELOG.md](CHANGELOG.md)
 - [CITATION.md](CITATION.md)
 - [RELEASE_CHECKLIST_v0.1.0.md](RELEASE_CHECKLIST_v0.1.0.md)
+- [CARE_IMPLEMENTATION_STATUS_v0.1.md](CARE_IMPLEMENTATION_STATUS_v0.1.md)
 
 ## Author
 
