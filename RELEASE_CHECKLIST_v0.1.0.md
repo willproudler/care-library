@@ -4,8 +4,10 @@
 **Release authorized:** No  
 **Tag created:** No  
 **GitHub release published:** No  
+**Zenodo draft created:** Yes — private draft  
 **Zenodo record published:** No  
-**DOI assigned:** No
+**DOI reserved:** Yes — `10.5281/zenodo.21364540`  
+**DOI registered:** No
 
 Completing this checklist does not itself authorize publication.
 
@@ -31,7 +33,7 @@ Confirm that the release contains none of the following:
 - [ ] personal, transaction or private-path information;
 - [ ] the withdrawn paper, corpus-status document or incomplete flagship example.
 
-Every box in this section must remain unchecked because the listed material must be absent.
+Every box in this section must be checked only after confirming that the listed material is absent.
 
 ## Content review
 
@@ -66,8 +68,8 @@ The proposed tag may contain:
 - the v0.1 prior-art claims;
 - licensing and trademark notices;
 - citation and changelog files;
-- the approved public rights manifest;
-- final release checksums.
+
+The public rights manifest, release manifest and `SHA256SUMS` are generated from the frozen release commit and attached as release assets. They are not tracked inside the `v0.1.0` tag, preventing self-referential or stale integrity metadata.
 
 The GitHub-generated source archive contains every tracked file at the tag. An attached curated archive does not make an unsafe tag safe.
 
