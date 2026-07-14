@@ -50,12 +50,6 @@ The proposed tag may include only approved versions of:
 - `prior-art/CARE_MACHINE_DEFENSIVE_PUBLICATION_v0.1.md`
 - `prior-art/CARE_PRIOR_ART_CLAIMS_v0.1.md`
 
-### Files generated at release freeze
-
-- `PUBLIC_RIGHTS_MANIFEST_v0.1.0.json`
-- `RELEASE_MANIFEST_v0.1.0.json`
-- `SHA256SUMS`
-
 Every allowed file must still pass the final rights and content review. Presence on this list does not by itself approve publication.
 
 ## Excluded from the tag and release
@@ -83,6 +77,12 @@ The release must not include:
 - `RELEASE_MANIFEST_v0.1.0.json`
 - `SHA256SUMS`
 - `LICENSE.txt`
+
+`PUBLIC_RIGHTS_MANIFEST_v0.1.0.json`, `RELEASE_MANIFEST_v0.1.0.json` and `SHA256SUMS` are generated from the frozen release commit and attached to the release. They are not tracked inside the `v0.1.0` tag.
+
+`SHA256SUMS` records the SHA-256 checksum of every attached release asset except itself. The rights and release manifests do not contain their own checksums; those checksums are recorded in `SHA256SUMS`.
+
+GitHub-generated source archives must be inspected separately because GitHub generates their bytes from the tag.
 
 Attachments must be generated from the approved frozen commit and must match the recorded checksums.
 
