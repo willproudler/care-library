@@ -26,4 +26,4 @@ Any third-party text, image, dataset, software dependency, or other asset added 
 
 Material with an unknown, restricted, or unresolved rights basis must not enter a public release.
 
-The required public manifest fields and release-decision rules are defined in `docs/CARE_PUBLIC_RIGHTS_MANIFEST_SCHEMA_v0.1.md`.
+The required public manifest fields and release-decision rules are defined in `CARE_PUBLIC_RIGHTS_MANIFEST_SCHEMA_v0.1.md`.
