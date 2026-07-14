@@ -4,10 +4,6 @@
 
 William Proudler
 
-## Contributors
-
-Ian Wenzel-Garay *(anticipated contributor to future versions)*
-
 Version 0.1.1 
 *Prepared for open-source release.*
 
