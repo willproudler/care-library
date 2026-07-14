@@ -6,9 +6,9 @@ Until a versioned v0.1.0 release and DOI are published, cite the repository as:
 
 > Proudler, William. *CARE Library / CARE Machine v0.1: Architecture and Defensive Publication*. Version 0.1.0-alpha. GitHub repository, 2026. https://github.com/willproudler/care-library
 
-**DOI:** Not yet assigned.
+**Reserved DOI:** `10.5281/zenodo.21364540`
 
-Do not invent or anticipate a DOI in citations.
+This DOI is reserved for the private Zenodo draft. It is not yet registered, resolving or published and must not be cited as a published DOI.
 
 ## Initial public disclosure
 
