@@ -4,10 +4,6 @@
 
 William Proudler
 
-## Contributors
-
-- Ian Wenzel-Garay *(anticipated contributor to future versions)*
-
 Version: v0.1.0-alpha
 
 Date: 11 July 2026
