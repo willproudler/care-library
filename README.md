@@ -62,8 +62,6 @@ The CARE Library is the accumulated corpus produced by that process.
 
 CARE v0.1 is in active local development.
 
-A first corpus has already been processed across philosophy, theology, political economy, post-structuralism, accelerationism, psychoanalysis, and critical theory.
-
 Some older processed works are currently being retrofitted with passage provenance.
 
 ## Current development priorities
