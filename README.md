@@ -62,8 +62,6 @@ The CARE Library is the accumulated corpus produced by that process.
 
 CARE v0.1 is in active local development.
 
-Some older processed works are currently being retrofitted with passage provenance.
-
 ## Current development priorities
 
 1. Stabilise RAW passage generation at ingestion.
