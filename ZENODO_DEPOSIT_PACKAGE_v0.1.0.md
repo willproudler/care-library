@@ -62,6 +62,10 @@ It does not contain private source books, RAW texts, a public corpus, private da
 
 All deposited files must be checksum-identical to the approved GitHub release assets.
 
+Before the final upload, remove the temporary `CARE_PUBLIC_RELEASE_BOUNDARY_v0.1.md` draft file and replace it with the complete approved asset set.
+
+`SHA256SUMS` must record the SHA-256 checksum of every deposited file except itself. The rights and release manifests must not contain their own checksums; those checksums are recorded in `SHA256SUMS`.
+
 ## Related identifiers
 
 After the GitHub release exists, add the exact `v0.1.0` release URL as a related identifier.
