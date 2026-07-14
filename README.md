@@ -87,6 +87,7 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 - CARE_PASSAGE_RETROFIT_PLAN_v0.1.md
 - CARE_COMMONS_CHARTER_v0.1.md
 - [CARE_PUBLIC_RELEASE_BOUNDARY_v0.1.md](CARE_PUBLIC_RELEASE_BOUNDARY_v0.1.md)
+- [CARE_PUBLIC_RIGHTS_MANIFEST_SCHEMA_v0.1.md](docs/CARE_PUBLIC_RIGHTS_MANIFEST_SCHEMA_v0.1.md)
 
 ## Author
 
