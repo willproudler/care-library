@@ -94,6 +94,8 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 - [CITATION.md](CITATION.md)
 - [RELEASE_CHECKLIST_v0.1.0.md](RELEASE_CHECKLIST_v0.1.0.md)
 - [CARE_IMPLEMENTATION_STATUS_v0.1.md](CARE_IMPLEMENTATION_STATUS_v0.1.md)
+- [GITHUB_RELEASE_PACKAGE_v0.1.0.md](GITHUB_RELEASE_PACKAGE_v0.1.0.md)
+- [ZENODO_DEPOSIT_PACKAGE_v0.1.0.md](ZENODO_DEPOSIT_PACKAGE_v0.1.0.md)
 
 ## Author
 
