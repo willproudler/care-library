@@ -58,9 +58,11 @@ The CARE Machine is the process/compiler.
 
 The CARE Library is the accumulated corpus produced by that process.
 
-## Current status
+CARE v0.1 is a documentation-only public alpha.
 
-CARE v0.1 is in active local development.
+This repository contains architecture, schema, governance and defensive-publication materials. It does not contain a public CARE corpus, source-text collection, database, API or released reference software implementation.
+
+See [CARE_IMPLEMENTATION_STATUS_v0.1.md](CARE_IMPLEMENTATION_STATUS_v0.1.md) for the current evidence boundary.
 
 ## Current development priorities
 
