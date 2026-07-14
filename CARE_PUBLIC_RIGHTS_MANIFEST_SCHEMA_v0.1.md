@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Every file included in a CARE public release must have a recorded provenance, rights basis, release decision, and final checksum.
+Every substantive file included in a CARE public release must have a recorded provenance, rights basis, release decision and final checksum. Integrity for the release-control files themselves is handled separately as described below, avoiding circular hashes.
 
 The public manifest records release-safe facts. It must not contain source text, private paths, permission correspondence, personal contact details, payment information, or other sensitive evidence.
 
@@ -40,6 +40,7 @@ A public manifest must contain:
 - `generated_at`
 - `scope`
 - `assets`
+- `control_files`
 
 The release commit and checksums must be populated only after the release contents are frozen.
 
@@ -128,6 +129,16 @@ Permitted values:
 9. Generated material must record its source ancestry without exposing private input text.
 10. A manifest approval applies only to the identified asset version and checksum.
 
+## Integrity-control files
+
+To avoid circular or stale hashes:
+
+1. `assets` must cover every tracked release file and every substantive attached release asset.
+2. `PUBLIC_RIGHTS_MANIFEST_v0.1.0.json`, `RELEASE_MANIFEST_v0.1.0.json` and `SHA256SUMS` are generated from the frozen release commit and are not tracked inside the `v0.1.0` tag.
+3. `SHA256SUMS` must record the SHA-256 checksum of every attached release asset except itself.
+4. The rights and release manifests must not contain their own checksums; their final checksums are recorded in `SHA256SUMS`.
+5. GitHub-generated source archives must be inspected separately because GitHub generates their bytes from the tag.
+
 ## Minimal manifest structure
 
 ```json
@@ -138,8 +149,15 @@ Permitted values:
   "release_commit": "TO_BE_SET_AT_RELEASE_FREEZE",
   "generated_at": "TO_BE_SET_AT_RELEASE_FREEZE",
   "scope": "CARE Library documentation-only public release",
+  "control_files": {
+    "rights_manifest": "PUBLIC_RIGHTS_MANIFEST_v0.1.0.json",
+    "release_manifest": "RELEASE_MANIFEST_v0.1.0.json",
+    "checksum_file": "SHA256SUMS",
+    "checksum_rule": "SHA256SUMS covers every attached release asset except itself"
+  },
   "assets": []
 }
+```
 
 The empty structure above is a schema example, not an approved release manifest.
 
