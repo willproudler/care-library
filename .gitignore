@@ -9,6 +9,8 @@
 !.env.example
 *.pem
 *.key
+*.p12
+*.pfx
 
 # Python
 __pycache__/
@@ -20,6 +22,38 @@ venv/
 *.db
 *.sqlite
 *.sqlite3
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
+# CARE private working material — never commit
+/private/
+/PRIVATE/
+/raw/
+/RAW/
+/corpus/
+/library/
+/source-books/
+/prompts/
+/trademark/
+/exports/
+/backups/
+/release-staging/
+
+# Private source, document and archive formats
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.rtf
+*.docx
+*.pages
+*.pdf
+*.zip
+*.7z
+*.tar
+*.tar.gz
 
 # Editors
 .vscode/
