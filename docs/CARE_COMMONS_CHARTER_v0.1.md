@@ -4,10 +4,6 @@
 
 William Proudler
 
-## Contributors
-
-- Ian Wenzel-Garay *(anticipated contributor to future versions)*
-
 ## Principle
 
 CARE is intended as a commons-oriented canon machine.
