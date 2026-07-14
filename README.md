@@ -98,10 +98,6 @@ The name and origin of CARE should be protected against enclosure or misrepresen
 
 William Proudler
 
-## Contributors
-
-- Ian Wenzel-Garay *(anticipated contributor to future versions)*
-
 Version: v0.1.0-alpha
 
 Date: 11 July 2026
