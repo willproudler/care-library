@@ -1,9 +1,10 @@
 # Proposed CARE Library v0.1.0 Zenodo Deposit
 
-**Status:** Draft proposal only  
-**Deposit created:** No  
-**DOI reserved:** No  
-**Record published:** No
+**Status:** Private Zenodo draft; publication not authorized  
+**Deposit created:** Yes — private draft  
+**DOI reserved:** Yes — `10.5281/zenodo.21364540`  
+**Record published:** No  
+**Temporary draft file:** `CARE_PUBLIC_RELEASE_BOUNDARY_v0.1.md` — already public on GitHub; replace with the final checksum-approved files before publication.
 
 ## Deposit approach
 
