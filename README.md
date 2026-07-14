@@ -65,11 +65,10 @@ CARE v0.1 is in active local development.
 ## Current development priorities
 
 1. Stabilise RAW passage generation at ingestion.
-2. Retrofit older processed works with passage provenance.
-3. Define a flagship corpus.
-4. Create one full provenance demo.
-5. Prepare a public technical and theoretical account.
-6. Protect CARE as a commons-oriented project.
+2. Define a flagship corpus.
+3. Create one full provenance demo.
+4. Prepare a public technical and theoretical account.
+5. Protect CARE as a commons-oriented project.
 
 ## Commons principle
 
